@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F1AD0052681CEA400900D8E /* BarCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1AD0042681CEA400900D8E /* BarCodeView.swift */; };
+		3F1AD0092681CF4200900D8E /* CarBode in Frameworks */ = {isa = PBXBuildFile; productRef = 3F1AD0082681CF4200900D8E /* CarBode */; };
+		3F428AA92680DE54007E0F80 /* BalanceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F428AA82680DE54007E0F80 /* BalanceApp.swift */; };
+		3F428AAB2680DE54007E0F80 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F428AAA2680DE54007E0F80 /* ContentView.swift */; };
+		3F428AAD2680DE55007E0F80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F428AAC2680DE55007E0F80 /* Assets.xcassets */; };
+		3F428AB02680DE55007E0F80 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F428AAF2680DE55007E0F80 /* Preview Assets.xcassets */; };
+		3F428AB22680DE55007E0F80 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F428AB12680DE55007E0F80 /* Persistence.swift */; };
+		3F428AB52680DE55007E0F80 /* Balance.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F428AB32680DE55007E0F80 /* Balance.xcdatamodeld */; };
+		3F428ABF2680DEF6007E0F80 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 3F428ABE2680DEF6007E0F80 /* SwiftUICharts */; };
+		3F428AC22680E089007E0F80 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F428AC12680E089007E0F80 /* MainView.swift */; };
+		3F428AC52680E0C1007E0F80 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F428AC42680E0C1007E0F80 /* ChartView.swift */; };
+		3F428AC82680E0EE007E0F80 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F428AC72680E0EE007E0F80 /* CalendarView.swift */; };
+		3F428ACB2680E117007E0F80 /* NewTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F428ACA2680E117007E0F80 /* NewTaskView.swift */; };
+		3F428ACE2680E132007E0F80 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F428ACD2680E132007E0F80 /* DetailView.swift */; };
+		3F428AD12680E154007E0F80 /* MapsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F428AD02680E154007E0F80 /* MapsView.swift */; };
+		3F428AD52680E421007E0F80 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F428AD42680E421007E0F80 /* LocationManager.swift */; };
+		3F428AD82680E45F007E0F80 /* MapDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F428AD72680E45F007E0F80 /* MapDetail.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F1AD0042681CEA400900D8E /* BarCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarCodeView.swift; sourceTree = "<group>"; };
+		3F428AA52680DE54007E0F80 /* Balance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Balance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F428AA82680DE54007E0F80 /* BalanceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceApp.swift; sourceTree = "<group>"; };
+		3F428AAA2680DE54007E0F80 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3F428AAC2680DE55007E0F80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F428AAF2680DE55007E0F80 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3F428AB12680DE55007E0F80 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		3F428AB42680DE55007E0F80 /* Balance.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Balance.xcdatamodel; sourceTree = "<group>"; };
+		3F428AB62680DE55007E0F80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F428AC12680E089007E0F80 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		3F428AC42680E0C1007E0F80 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		3F428AC72680E0EE007E0F80 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		3F428ACA2680E117007E0F80 /* NewTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskView.swift; sourceTree = "<group>"; };
+		3F428ACD2680E132007E0F80 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		3F428AD02680E154007E0F80 /* MapsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsView.swift; sourceTree = "<group>"; };
+		3F428AD42680E421007E0F80 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		3F428AD72680E45F007E0F80 /* MapDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapDetail.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F428AA22680DE54007E0F80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F428ABF2680DEF6007E0F80 /* SwiftUICharts in Frameworks */,
+				3F1AD0092681CF4200900D8E /* CarBode in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F428A9C2680DE54007E0F80 = {
+			isa = PBXGroup;
+			children = (
+				3F428AA72680DE54007E0F80 /* Balance */,
+				3F428AA62680DE54007E0F80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F428AA62680DE54007E0F80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F428AA52680DE54007E0F80 /* Balance.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F428AA72680DE54007E0F80 /* Balance */ = {
+			isa = PBXGroup;
+			children = (
+				3F428AA82680DE54007E0F80 /* BalanceApp.swift */,
+				3F428AC12680E089007E0F80 /* MainView.swift */,
+				3F428AC42680E0C1007E0F80 /* ChartView.swift */,
+				3F1AD0042681CEA400900D8E /* BarCodeView.swift */,
+				3F428AC72680E0EE007E0F80 /* CalendarView.swift */,
+				3F428AAA2680DE54007E0F80 /* ContentView.swift */,
+				3F428ACA2680E117007E0F80 /* NewTaskView.swift */,
+				3F428ACD2680E132007E0F80 /* DetailView.swift */,
+				3F428AD02680E154007E0F80 /* MapsView.swift */,
+				3F428AD42680E421007E0F80 /* LocationManager.swift */,
+				3F428AD72680E45F007E0F80 /* MapDetail.swift */,
+				3F428AAC2680DE55007E0F80 /* Assets.xcassets */,
+				3F428AB12680DE55007E0F80 /* Persistence.swift */,
+				3F428AB62680DE55007E0F80 /* Info.plist */,
+				3F428AB32680DE55007E0F80 /* Balance.xcdatamodeld */,
+				3F428AAE2680DE55007E0F80 /* Preview Content */,
+			);
+			path = Balance;
+			sourceTree = "<group>";
+		};
+		3F428AAE2680DE55007E0F80 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3F428AAF2680DE55007E0F80 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F428AA42680DE54007E0F80 /* Balance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F428AB92680DE55007E0F80 /* Build configuration list for PBXNativeTarget "Balance" */;
+			buildPhases = (
+				3F428AA12680DE54007E0F80 /* Sources */,
+				3F428AA22680DE54007E0F80 /* Frameworks */,
+				3F428AA32680DE54007E0F80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Balance;
+			packageProductDependencies = (
+				3F428ABE2680DEF6007E0F80 /* SwiftUICharts */,
+				3F1AD0082681CF4200900D8E /* CarBode */,
+			);
+			productName = Balance;
+			productReference = 3F428AA52680DE54007E0F80 /* Balance.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F428A9D2680DE54007E0F80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					3F428AA42680DE54007E0F80 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 3F428AA02680DE54007E0F80 /* Build configuration list for PBXProject "Balance" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F428A9C2680DE54007E0F80;
+			packageReferences = (
+				3F428ABD2680DEF6007E0F80 /* XCRemoteSwiftPackageReference "ChartView" */,
+				3F1AD0072681CF4200900D8E /* XCRemoteSwiftPackageReference "CarBode-Barcode-Scanner-For-SwiftUI" */,
+			);
+			productRefGroup = 3F428AA62680DE54007E0F80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F428AA42680DE54007E0F80 /* Balance */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F428AA32680DE54007E0F80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F428AB02680DE55007E0F80 /* Preview Assets.xcassets in Resources */,
+				3F428AAD2680DE55007E0F80 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F428AA12680DE54007E0F80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F428AB22680DE55007E0F80 /* Persistence.swift in Sources */,
+				3F1AD0052681CEA400900D8E /* BarCodeView.swift in Sources */,
+				3F428ACE2680E132007E0F80 /* DetailView.swift in Sources */,
+				3F428AC82680E0EE007E0F80 /* CalendarView.swift in Sources */,
+				3F428AD82680E45F007E0F80 /* MapDetail.swift in Sources */,
+				3F428AD52680E421007E0F80 /* LocationManager.swift in Sources */,
+				3F428AAB2680DE54007E0F80 /* ContentView.swift in Sources */,
+				3F428AB52680DE55007E0F80 /* Balance.xcdatamodeld in Sources */,
+				3F428AD12680E154007E0F80 /* MapsView.swift in Sources */,
+				3F428ACB2680E117007E0F80 /* NewTaskView.swift in Sources */,
+				3F428AC22680E089007E0F80 /* MainView.swift in Sources */,
+				3F428AA92680DE54007E0F80 /* BalanceApp.swift in Sources */,
+				3F428AC52680E0C1007E0F80 /* ChartView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3F428AB72680DE55007E0F80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F428AB82680DE55007E0F80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F428ABA2680DE55007E0F80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Balance/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Balance/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mendelu.Balance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F428ABB2680DE55007E0F80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Balance/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Balance/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mendelu.Balance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F428AA02680DE54007E0F80 /* Build configuration list for PBXProject "Balance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F428AB72680DE55007E0F80 /* Debug */,
+				3F428AB82680DE55007E0F80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F428AB92680DE55007E0F80 /* Build configuration list for PBXNativeTarget "Balance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F428ABA2680DE55007E0F80 /* Debug */,
+				3F428ABB2680DE55007E0F80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3F1AD0072681CF4200900D8E /* XCRemoteSwiftPackageReference "CarBode-Barcode-Scanner-For-SwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/heart/CarBode-Barcode-Scanner-For-SwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.2;
+			};
+		};
+		3F428ABD2680DEF6007E0F80 /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3F1AD0082681CF4200900D8E /* CarBode */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F1AD0072681CF4200900D8E /* XCRemoteSwiftPackageReference "CarBode-Barcode-Scanner-For-SwiftUI" */;
+			productName = CarBode;
+		};
+		3F428ABE2680DEF6007E0F80 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F428ABD2680DEF6007E0F80 /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		3F428AB32680DE55007E0F80 /* Balance.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3F428AB42680DE55007E0F80 /* Balance.xcdatamodel */,
+			);
+			currentVersion = 3F428AB42680DE55007E0F80 /* Balance.xcdatamodel */;
+			path = Balance.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3F428A9D2680DE54007E0F80 /* Project object */;
+}
